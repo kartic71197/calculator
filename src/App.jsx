@@ -20,7 +20,7 @@ const App = () => {
       if (evaluated === Infinity) {
         setResult('Infinity');
       } else if (isNaN(evaluated)) {
-        setResult('NaN');
+        setResult('Error');
       } else {
         setResult(evaluated);
       }
