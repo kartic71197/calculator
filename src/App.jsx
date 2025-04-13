@@ -18,7 +18,7 @@ const App = () => {
     try {
       const evaluated = eval(input);
       if (isNaN(evaluated)) {
-        setResult('NaN');
+        setResult('Error');
       }
       else if (!isFinite(evaluated)) {
         setResult('Infinity');
